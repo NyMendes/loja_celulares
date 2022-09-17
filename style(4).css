@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor01:#02161F;
+    --cor02:#010f0e;
+    --cor03:#e9e7e3;
+    --cor04:#D8D5D4;
+    --cor05:#C2C0B8;
+    --cor1:#0EF0CE;
+    --cor2:#15BDA3;
+    --cor3:#121FA3;
+    --cor4:#0E22F0;
+    --cor5:#FCC80A;
+    --cor6:#F08D02;
+    --cor7:#DB6304;
+    --font-padrao:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --font-conteudo: Roboto Condensed;
+    --font-destaque: Courier New , Courier, monospace;
+ }
+body{
+    background-color: ;
+}
+header{
+    padding: 10px 10px 10px 10px;;
+    background-color:#0a0907; 
+    min-height: 50px;
+    position: fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+	margin-top: 0px;
+}
+.caixa{ /*div.class*/
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+}
+nav{
+    display:inline-block;
+    position:absolute;
+    top: 0px;
+    right: 0;
+}
+nav li{
+    display:inline-block;
+}
+
+nav a{
+    display:block;
+    text-transform: uppercase;
+    color: var(--cor03);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 6px 10px 6px 8px;
+    margin:5px 0 0 5px;
+    color: #ffffff;
+    border: 1px #D8D5D4 solid;
+}
+nav a:hover{
+    color:var(--cor3);
+    font-size: 20px;
+    text-decoration: underline;
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+}
+h1{
+    color: var(--cor03);
+    font-size: 40px;
+    font-family:'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    color: var(--cor01);
+    font-size: 36px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+}
+.titulo-centralizado{
+    color: var(--cor03);
+    margin: 0 10px 10px 10px;
+}
+h3{
+    color: var(--cor01);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px 6px 6px 6px ;
+}
+p{
+    color: var(--cor01);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    padding: 6px 6px 6px 6px ;
+}
+main{
+    background-color: var(--cor03);
+    min-height: 1200px;
+}
+.conteudo{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-laranja-abstrato-com-linhas-e-efeito-de-meio-tom_1017-32107.jpg?size=626&ext=jpg&uid=R77561148&ga=GA1.2.1935244328.1655058430);
+    background-size: 100%;
+    min-height: 300px;
+    text-align: center;
+    padding: 40px 200px 5px 200px ;
+}
+strong{
+    color:#010f0e;
+    font-size: large;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.produtos{ 
+    width: 1250px;
+    height: 970px;
+    margin: 6px 6px 10px 6px;
+    padding: 10px 10px 10px 150px;
+}
+.produtos li {
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    width: 26%;
+    vertical-align: top;
+    margin: 4px 4px 4px 4px ;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    border: 3px #130b05 solid;
+    border-radius: 15px;
+}
+
+.produtos li:hover{
+    border-color:#0a0907;
+}
+.produtos li:active{
+    border-color: #121FA3;
+}
+.produtos li:hover h3 {
+    font-size: 40px;
+}
+
+.produtos img {
+    width: 250px;
+    height: 220px;
+}
+.produto-texto{
+    font-size: 16px;
+}
+.produto-preco{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.conteudo hr{
+    width: 10%;
+    background-color:#D8D5D4;
+    margin: auto;
+}
+
+footer{
+    background-image: linear-gradient(to bottom, #f5f5f5,#c2c1c1,#8b8a8a);
+    font-size: 20px;
+    min-height: 120px;
+    text-align: center;
+    padding: 80px 80px 80px 80px;
+}
+footer a {
+    color:#DB6304;
+    font-size: 18px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    text-decoration: none;
+}
+footer a:hover{
+    color:var(--cor3);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+footer>p{
+    color:#0e0d18;
+    font-size: 16px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
